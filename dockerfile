@@ -13,7 +13,7 @@ RUN pip install -r requirements.txt
 # Copy the entire project directory into the container
 COPY app/ /app
 
-# Expose port 8503
+# Expose port 8501
 EXPOSE 8501
 
 # Run app.py when the container launches
